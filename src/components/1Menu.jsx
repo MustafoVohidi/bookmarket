@@ -3,7 +3,7 @@ import React from 'react';
 import { Menu } from 'semantic-ui-react';
 
 
-const MenuComponent = ({ totalPrice,handleItemClick }) => (
+const MenuComponent = ({ totalPrice }) => (
   <Menu>
     <Menu.Item name='browse' onClick={this.handleItemClick}>
       Магазин Книг

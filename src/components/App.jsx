@@ -5,6 +5,7 @@ import 'semantic-ui-css/semantic.min.css';
 import { Menu } from 'semantic-ui-react';
 import BookCard from './BookCard';
 import Filter from '../containers/Filter';
+// import Menu from '../containers/Menu';
 
 
 class App extends Component {
@@ -20,6 +21,8 @@ class App extends Component {
     const { books, isReady } = this.props;
     return (
       <Container>
+
+        <Menu />
         <Menu>
           <Menu.Item name='browse' onClick={this.handleItemClick}>
             Магазин Книг
@@ -54,4 +57,4 @@ class App extends Component {
 }
 
 
-export default App;
+export default (App);
